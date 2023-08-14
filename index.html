@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="Image/favicon3.jpg">
+</head>
+<body>
+    <header>
+        <h2 class="heading">Student Registration Form</h2>
+    </header>
+    <div class="container">
+        <div class="container1">
+            <form action="" id="form">
+                <div class="form-ele">
+                    <label for="fname">Full Name:</label>
+                    <input class="in" type="text" name="fname" id="fname" placeholder="Your name"><br>
+                </div>
+                <div class="form-ele">
+                    <label for="ennumber">Reg. No.:</label>
+                    <input class="in" type="number" name="regnumber" id="regnumber" placeholder="Registration number"><br>
+                </div>
+                <div class="form-ele">
+                    <label for="branch">Branch:</label>
+                    <input class="in" type="text" name="branch" id="branch" placeholder="Branch name"><br>
+                </div>
+                <div class="form-ele">
+                    <label for="emailid">Email:</label>
+                    <input class="in" type="email" name="emailid" id="emailid" placeholder="Email address"><br>
+                </div>
+                <div class="form-ele">
+                    <label for="mobileno">Mobile No:</label>
+                    <input class="in" type="number" name="mobileno" id="mobileno" placeholder="Mobile Number" maxlength="10"><br>
+                </div>
+                <div class="skills">
+                    <label for="skills">Skills:</label>
+                    <div class="form-rad first">
+                        <input type="checkbox" name="html" id="html" value="HTML">
+                        <label for="html">HTML</label>
+                    </div>
+                    <div class="form-rad">
+                        <input type="checkbox" name="css" id="css" value="CSS">
+                        <label for="css">CSS</label>
+                    </div>
+                    <div class="form-rad">
+                        <input type="checkbox" name="js" id="js" value="JS">
+                        <label for="js">JavaScript</label><br>
+                    </div>
+                </div>
+                <button class="form-btn" type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="container2">
+            <div class="show">
+                <h2>Registered Students List</h2>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
